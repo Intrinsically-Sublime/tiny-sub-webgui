@@ -35,10 +35,14 @@ Implemented:
 - :globe_with_meridians: Multi-language(32+) support and for translations `translation.json` is file required
 - :bangbang: lots more...
 
-## Screenshots
+## Screenshots (mobile - desktop)
 Light mode | Dark mode|
 --- | ---
-![]() | ![]()
+![](screenshots/add_sub_light.png) | ![](screenshots/add_sub_dark.png)
+![](screenshots/file_browser_light.png) | ![](screenshots/file_browser_dark.png)
+![](screenshots/file_viewer_light.png) | ![](screenshots/file_viewer_dark.png)
+![](screenshots/basic_file_editor_light.png) | ![](screenshots/basic_file_editor_dark.png)
+![](screenshots/ace_file_editor_light.png) | ![](screenshots/ace_file_editor_dark.png)
 
 ## Settings
 All settings are via the index.php file 
