@@ -25,10 +25,10 @@ define('APP_TITLE', 'Subcription Manager');
 define('AUTHOR', 'Intrinsically-Sublime');
 
 //Source code URL
-define('SITE', 'https://github.com/Intrinsically-Sublime');
+define('SITE', 'https://github.com/Intrinsically-Sublime/tiny-sub-webgui');
 
 //Bug Report URL
-define('BUG_SITE', 'https://github.com/Intrinsically-Sublime');
+define('BUG_SITE', 'https://github.com/Intrinsically-Sublime/tiny-sub-webgui/issues');
 
 //Hide folder sums from view since we only have a couple of tiny files and do not need the extra information
 $HIDE_TOTALS = true;
