@@ -62,6 +62,8 @@ Make sure you have **already installed docker**, [Install reference](https://doc
 Download the complete project to the location you would like to run the project from.
 https://github.com/Intrinsically-Sublime/tiny-sub-webgui.git
 
+Edit the docker-compose-yml file to set your folder bindings, timezone and port
+
 To pull the tinyfilemanger and ytdl-sub docker images and start the program
 ```
 docker compose up -d
@@ -71,6 +73,7 @@ To update
 docker compose pull
 docker compose up -d
 ```
+Access the interface at http://localhost:3132
 
 ### <a name=license></a>License, Credit
 
