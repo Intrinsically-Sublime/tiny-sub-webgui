@@ -19,7 +19,7 @@ $CONFIG = '{"lang":"en","error_reporting":false,"show_hidden":false,"hide_Cols":
 define('VERSION', '0.1');
 
 //Application Title
-define('APP_TITLE', 'Subcription Manager');
+define('APP_TITLE', 'Tiny Subcription Manager');
 
 //Author
 define('AUTHOR', 'Intrinsically-Sublime');
@@ -3688,7 +3688,7 @@ function fm_show_nav_path($path)
     }
     ?>
     <nav class="navbar navbar-expand-lg <?php echo $getTheme; ?> mb-4 main-nav <?php echo $isStickyNavBar ?>">
-        <a class="navbar-brand" style=color:white; href='?p='><i class="fa fa-arrow-circle-down"></i></i><?php echo lng('AppTitle') ?></a>
+        <a class="navbar-brand" style=color:white; href='?p='><i class="fa fa-arrow-circle-down"></i>  <?php echo lng('AppTitle') ?></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
