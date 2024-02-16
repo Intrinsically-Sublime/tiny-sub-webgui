@@ -4,10 +4,14 @@ This is simply an overlay of tinyfilemanagers single file php page adding featur
 
 # **WIP**
 ## Roadmap
-- [ ] Connect Run and Dry-Run buttons to ytdl-sub via - /var/run/docker.sock:/var/run/docker.sock ?
-- [ ] Collect and format data from add subscription interface and add to appropriate yml
+- [ ] ~~Connect Run and Dry-Run buttons to ytdl-sub via - /var/run/docker.sock:/var/run/docker.sock ?~~
+  - Using docker.sock although easy it looks to be a security vulnerability. (see below for option b)
+- [ ] Host and serve index.php using ytdl-sub container rather than in the tfm container. (safer than using docker.sock)
 - [ ] Parse examples and previous yml files to populate presets and overrides with previously used code snippets
 - [ ] Add ability to select a subscription.yml file and add it to the crontab via a button and interface
+
+In Progress:
+- [ ] Collect and format data from add subscription interface and add to appropriate yml
 
 Implemented:
 - [x] Design interface for adding subscriptions
