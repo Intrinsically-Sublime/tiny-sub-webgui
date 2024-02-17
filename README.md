@@ -9,6 +9,7 @@ This is simply an overlay of tinyfilemanagers single file php page adding featur
 - [ ] Host and serve index.php using ytdl-sub container rather than in the tfm container. (safer than using docker.sock)
 - [ ] Parse examples and previous yml files to populate presets and overrides with previously used code snippets
 - [ ] Add ability to select a subscription.yml file and add it to the crontab via a button and interface
+- [ ] Limit presets available in dropdown based on media type selected
 
 In Progress:
 - [ ] Collect and format data from add subscription interface and add to appropriate yml
