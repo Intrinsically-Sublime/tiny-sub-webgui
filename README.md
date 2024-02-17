@@ -42,11 +42,11 @@ Implemented:
 ## Screenshots (mobile - desktop)
 Light mode | Dark mode|
 --- | ---
-![](screenshots/add_sub_light.png) | ![](screenshots/add_sub_dark.png)
-![](screenshots/file_browser_light.png) | ![](screenshots/file_browser_dark.png)
-![](screenshots/file_viewer_light.png) | ![](screenshots/file_viewer_dark.png)
-![](screenshots/basic_file_editor_light.png) | ![](screenshots/basic_file_editor_dark.png)
-![](screenshots/ace_file_editor_light.png) | ![](screenshots/ace_file_editor_dark.png)
+![](screenshots/add_sub_light.png?raw=true) | ![](screenshots/add_sub_dark.png?raw=true)
+![](screenshots/file_browser_light.png?raw=true) | ![](screenshots/file_browser_dark.png?raw=true)
+![](screenshots/file_viewer_light.png?raw=true) | ![](screenshots/file_viewer_dark.png?raw=true)
+![](screenshots/basic_file_editor_light.png?raw=true) | ![](screenshots/basic_file_editor_dark.png?raw=true)
+![](screenshots/ace_file_editor_light.png?raw=true) | ![](screenshots/ace_file_editor_dark.png?raw=true)
 
 ## Settings
 All settings are via the index.php file 
